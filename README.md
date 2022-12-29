@@ -1,6 +1,6 @@
 # A22-express_basic
 
-![Index page about Restaurant List](./public/restaurant_list.png)
+![Index page about Restaurant List](./public/express_basic.png)
 
 AlphaCamp 學期 2-3 A22 技術驗收:Express 基礎驗收 
 
