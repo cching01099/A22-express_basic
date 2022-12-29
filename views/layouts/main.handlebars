@@ -1,0 +1,56 @@
+<!-- ./views/layouts/main.handlebars  預設layouts佈局-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express Basic</title>
+
+    <!-- 載入css檔案-->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css" />
+    <!-- 載入自己寫的css檔案-->
+    <link rel="stylesheet" href="/stylesheets/index.css" />
+
+  </head>
+
+  <body>
+    <!-- navbar-->
+    <div class="navbar">
+      <div class="container">
+        <!-- 左邊nav: 回到首頁-->
+        <div class="nav-left">
+          <a href="/" class="backtoFront">
+            <button type="button" class="front-btn">回到首頁</button>
+          </a>
+        </div>
+        <!-- 右邊nav: 三個功能-->
+        <div class="nav-right">
+          <!-- About-->
+          <div class="about">
+            <a href="/about" class="gotoAbout">
+              <button type="button" class="about-btn">About</button>
+            </a>
+          </div>
+          <!-- Potrfolio-->
+          <div class="portfolio">
+            <a href="/portfolio" class="gotoPortfolio">
+              <button type="button" class="portfolio-btn">Portfolio</button>
+            </a>
+          </div>
+
+          <div class="contact">
+            <!-- Contact-->
+            <a href="/contact" class="gotoContact">
+              <button type="button" class="contact-btn">Contact</button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- partial templates will replace the part of "body" here 局部樣板 -->
+    {{{body}}}
+  </body>
+
+</html>
